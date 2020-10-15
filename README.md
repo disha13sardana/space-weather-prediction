@@ -1,1 +1,1 @@
-# Solar-Weather-Prediction
+# Space Weather Prediction

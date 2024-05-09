@@ -1,3 +1,7 @@
 # Solar storm prediction using neural networks
 
 To predict the occurrence of solar storms, we exploit the NARX neural networks to predict the hourly geomagnetic Dst index in advance. We choose the solar wind parameters such as the interplanetary magnetic field (IMF), z component of the magnetic field (Bz), solar wind velocity (V), solar wind plasma number density (n) as the input parameters. The solar wind data and the geomagnetic Dst index data are chosen for 2000-2015, covering 91 storms and solar cycle 23 & 24. We predict the Dst index over different periods: one year, five years, ten years, and 16 years, covering the onset, maxima, and recovery phase of the solar storm cycle. We use three different training algorithms for prediction: Levenberg-Marquardt, Bayesian Regularization, and Scaled Conjugate Gradient, and randomly divide the data into three parts for each algorithm, 70% as the training set, 15% as the validation set, and 15% as the test set. Our findings suggest that storms of different strengths are predicted accurately, and the correlation between the predicted Dst index and the observed Dst index (2000-2016) is found out to be 0.98. A low MSE in the range of [7,12] and a high regression R-value of about 0.98 has been achieved.
+
+**Note**: If using this code, please cite: https://www.researchgate.net/publication/344673045_Solar_Storm_Prediction_Using_Neural_Networks
+
+**DOI**: [10.13140/RG.2.2.36245.76003](http://dx.doi.org/10.13140/RG.2.2.36245.76003)
